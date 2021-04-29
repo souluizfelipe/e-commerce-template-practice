@@ -1,7 +1,10 @@
 :root {
     --font-caption: 'Open Sans', sans-serif;
     --font-s6: 'Poppins', sans-serif;
-
+    --color-c2a: #6A983C;
 }
 
+body {
+     background-color: #e6e6e6; /*temporary color */
+}
 
