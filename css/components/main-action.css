@@ -1,5 +1,7 @@
 .main-action {
     margin-right: 33px;
+    text-decoration: none;
+    color: var(--color-c1a);
 }
 
 .main-action:last-child {
