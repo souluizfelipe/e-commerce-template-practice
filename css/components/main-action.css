@@ -1,0 +1,11 @@
+.main-action {
+    margin-right: 33px;
+}
+
+.main-action:last-child {
+    margin-right: 0;
+}
+
+.main-action.-green {
+    color: var(--color-c2a);
+}
