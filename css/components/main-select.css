@@ -1,0 +1,13 @@
+.main-select {
+    appearance: none;
+    box-sizing: border-box;
+    border-radius: 12px 0px 0px 12px; 
+    width: 180px;
+    height: 100%;
+    font-family: var(--font-s6);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: var(--color-c1h);
+    padding-left: 15px;
+}
+
