@@ -1,8 +1,13 @@
 :root {
     --font-caption: 'Open Sans', sans-serif;
     --font-s6: 'Poppins', sans-serif;
-    --color-c2a: #6A983C;
+
+    --color-c1a: #151515;
+    --color-c1d: #D1D1D1;
+    --color-c1h: #F9F9F9;
     --color-c1i: #FFF;
+
+    --color-c2a: #6A983C;
 }
 
 body {
