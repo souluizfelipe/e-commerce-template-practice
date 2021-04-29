@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="css/components/page-wrapper.css">
     <link rel="stylesheet" href="css/components/main-nav.css">
     <link rel="stylesheet" href="css/components/main-action.css">
+    <link rel="stylesheet" href="css/components/sub-header.css">
+    <link rel="stylesheet" href="css/components/select-search.css">
+    <link rel="stylesheet" href="css/components/main-select.css">
+    <link rel="stylesheet" href="css/components/main-search.css">
+    <link rel="stylesheet" href="css/components/search-button.css">
 </head>
 <body>
     <div class="page-wrapper">
@@ -30,6 +35,20 @@
                     <a class="main-action -green" href="">Careers</a>
                 </div>
             </nav>
+            <div class="sub-header">
+                <img src="assets/Brand.png" alt="brand logo" class="main-brand">
+                <div class="select-search">
+                    <select class="main-select" name="select" id="select">
+                        <option value="All categories">All categories</option>
+                    </select>
+                    <input class="main-search" type="search" name="search" id="search" placeholder="Search Products, categories ...">
+                    <button class="search-button" type="submit"><img src="assets/ic-actions-search.png" alt="search"></button>
+                </div>
+                <div>
+                    <a class="main-action" href=""><img src="assets/ic-actions-user.png" alt="user profile"></a>
+                    <a class="main-action" href=""><img src="assets/ic-ecommerce-basket.png" alt="commerce basket"></a>
+                </div>
+            </div>    
         </header>
     </div>
 </body>
