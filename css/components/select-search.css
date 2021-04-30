@@ -6,8 +6,3 @@
     border: 1px solid var(--color-c1d);
     display: flex;
 }
-
-.main-search:before {
-    content: "";
-    color: black;
-}
