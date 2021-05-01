@@ -1,0 +1,5 @@
+.list-item {
+    margin-bottom: 12px;
+    color: var(--color-c2a);
+    text-decoration: underline;
+}
