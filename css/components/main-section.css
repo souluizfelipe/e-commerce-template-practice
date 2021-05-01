@@ -5,3 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.main-section.-second {
+        border-bottom: 1px solid var(--color-c1);
+}
