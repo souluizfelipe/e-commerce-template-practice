@@ -20,6 +20,21 @@
     <link rel="stylesheet" href="css/components/main-search.css">
     <link rel="stylesheet" href="css/components/search-button.css">
     <link rel="stylesheet" href="css/components/main-categories.css">
+
+    <link rel="stylesheet" href="css/components/main-section.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-list.css">
+    <link rel="stylesheet" href="css/components/list-item.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+
+    <link rel="stylesheet" href="css/components/list-category.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/banner-subtitle.css">
+    <link rel="stylesheet" href="css/components/banner-title.css">
+
+    <link rel="stylesheet" href="css/components/product-card.css">
+    <link rel="stylesheet" href="css/components/product-description.css">
+    <link rel="stylesheet" href="css/components/product-image.css">
 </head>
 <body>
     <div class="page-wrapper">
@@ -37,17 +52,17 @@
                 </div>
             </nav>
             <div class="sub-header">
-                <img src="assets/Brand.png" alt="brand logo" class="main-brand">
+                <img src="assets/img/Brand.png" alt="brand logo" class="main-brand">
                 <div class="select-search">
                     <select class="main-select -search" name="select" id="select">
                         <option value="All categories">All categories</option>
                     </select>
                     <input class="main-search" type="search" name="search" id="search" placeholder="Search Products, categories ...">
-                    <button class="search-button" type="submit"><img src="assets/ic-actions-search.png" alt="search"></button>
+                    <button class="search-button" type="submit"><img src="assets/img/ic-actions-search.png" alt="search"></button>
                 </div>
                 <div>
-                    <a class="main-action" href=""><img src="assets/ic-actions-user.png" alt="user profile"></a>
-                    <a class="main-action" href=""><img src="assets/ic-ecommerce-basket.png" alt="commerce basket"></a>
+                    <a class="main-action" href=""><img src="assets/img/ic-actions-user.png" alt="user profile"></a>
+                    <a class="main-action" href=""><img src="assets/img/ic-ecommerce-basket.png" alt="commerce basket"></a>
                 </div>
             </div>    
         </header>
@@ -77,6 +92,127 @@
                 <option value="Pharmacy">Pharmacy</option>
             </select>
         </div>
+        <section class="main-section">  
+                <div class="list-category">
+                    <h3 class="main-subtitle">Category title</h3>
+                    <ul class="main-list">
+                        <li class="list-item">Bakery</li>
+                        <li class="list-item">Fruit and vegetables</li>
+                        <li class="list-item">Meat and fish</li>
+                        <li class="list-item">Drinks</li>
+                        <li class="list-item">Kitchen</li>
+                    </ul>
+                    <button class="main-button">More categories ></button>
+                </div>
+                <div class="main-banner">
+                    <h3 class="banner-subtitle">Banner subfocus</h3>
+                    <h1 class="banner-title">Space for heading</h1>
+                    <button class="main-button -banner">Read recepies ></button>
+                </div>
+                <div class="main-banner">
+                    <h3 class="banner-subtitle">Banner subfocus</h3>
+                    <h1 class="banner-title">Space for heading</h1>
+                    <button class="main-button -banner">Read recepies ></button>
+                </div>
+        </section>
+        <section class="main-section">
+                <div class="list-category">
+                    <h3 class="main-subtitle">Best selling products</h3>
+                    <ul class="main-list">
+                        <li class="list-item">Kitchen</li>
+                        <li class="list-item">Meat and fish</li>
+                        <li class="list-item">Special nutrition</li>
+                        <li class="list-item">Pharmacy</li>
+                        <li class="list-item">Baby</li>
+                    </ul>
+                    <button class="main-button">More products ></button>
+                </div>
+                <div class="product-card">
+                    <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                    <h3 class="main-subtitle -product">Product Title</h3>
+                    <p class="product-description">Space for a small product description</p>
+                    <div class="cardPrice"> 
+                        <div class="price">
+                            <h3 class="main-subtitle">1.48 USD</h3>
+                            <h3 class="main-subtitle -oldPrice"></h3>
+                        </div>
+                        <button class="main-button -buyNow">Buy now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                    <h3 class="main-subtitle -product">Product Title</h3>
+                    <p class="product-description">Space for a small product description</p>
+                    <div class="cardPrice"> 
+                        <div class="price">
+                            <h3 class="main-subtitle">0.28 USD</h3>
+                            <h3 class="main-subtitle -oldPrice">48.56</h3>
+                        </div>
+                        <button class="main-button -buyNow">Buy now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                    <h3 class="main-subtitle -product">Product Title</h3>
+                    <p class="product-description">Space for a small product description</p>
+                    <div class="cardPrice"> 
+                        <div class="price">
+                            <h3 class="main-subtitle">1.12 USD</h3>
+                            <h3 class="main-subtitle -oldPrice">48.56</h3>
+                        </div>
+                        <button class="main-button -buyNow">Buy now</button>
+                    </div>
+                </div>
+        </section>
+        <section class="main-section">
+            <div class="list-category">
+                <h3 class="main-subtitle">Best from Farmers</h3>
+                <ul class="main-list">
+                    <li class="list-item">Carrots</li>
+                    <li class="list-item">Tomatoes</li>
+                    <li class="list-item">Potatoes</li>
+                    <li class="list-item">Chicken</li>
+                    <li class="list-item">Pork</li>
+                </ul>
+                <button class="main-button">More products ></button>
+            </div>
+            <div class="product-card">
+                <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                <h3 class="main-subtitle -product">Product Title</h3>
+                <p class="product-description">Space for a small product description</p>
+                <div class="cardPrice"> 
+                    <div class="price">
+                        <h3 class="main-subtitle">1.48 USD</h3>
+                        <h3 class="main-subtitle -oldPrice"></h3>
+                    </div>
+                    <button class="main-button -buyNow">Buy now</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                <h3 class="main-subtitle -product">Product Title</h3>
+                <p class="product-description">Space for a small product description</p>
+                <div class="cardPrice"> 
+                    <div class="price">
+                        <h3 class="main-subtitle">0.28 USD</h3>
+                        <h3 class="main-subtitle -oldPrice">48.56</h3>
+                    </div>
+                    <button class="main-button -buyNow">Buy now</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                <h3 class="main-subtitle -product">Product Title</h3>
+                <p class="product-description">Space for a small product description</p>
+                <div class="cardPrice"> 
+                    <div class="price">
+                        <h3 class="main-subtitle">1.12 USD</h3>
+                        <h3 class="main-subtitle -oldPrice">48.56</h3>
+                    </div>
+                    <button class="main-button -buyNow">Buy now</button>
+                </div>
+            </div>
+    </section>  
     </div>
 </body>
 </html>
