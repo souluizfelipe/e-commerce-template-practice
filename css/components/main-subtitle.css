@@ -1,0 +1,20 @@
+.main-subtitle {
+    text-decoration: none;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-family: var(--font-s6);
+    font-weight: 600;
+    color: var(--color-c1a);
+}
+
+.main-subtitle.-product {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.main-subtitle.-oldPrice {
+    color: var(--color-c1c);
+    text-decoration: line-through;
+    font-size: 12px;
+}
