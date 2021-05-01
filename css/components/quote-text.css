@@ -1,0 +1,17 @@
+.quote-text {
+    text-align: center;
+    text-justify: center;
+    font-family: var(--font-s6);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color-c1a);
+    line-height: 22.5px;
+    margin-bottom: 24px;
+}   
+
+.quote-text.-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-c1c);
+    text-align: center;
+}

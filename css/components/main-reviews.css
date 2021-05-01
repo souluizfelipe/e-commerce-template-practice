@@ -1,0 +1,16 @@
+.main-reviews {
+    width: 369px;
+    height: 198px;
+    border: 1px solid var(--color-c1j);
+    border-radius: 12px;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    background-color: var(color-c1i);
+}
+
+.main-reviews .picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-25%);    
+}
