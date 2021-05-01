@@ -1,0 +1,25 @@
+.main-button {
+    font-family: var(--font-s6);
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 12px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+.main-button.-banner {
+    background-color: transparent ;
+    border: 2px solid var(--color-c2c);
+    margin-top: 94px;
+}
+
+.main-button.-buyNow {
+    height: 36px;
+    text-align: center;
+    border: 2px solid var(--color-c2a);
+    color: var(--color-c1i);
+    background-color: var(--color-c2b);    
+
+}
