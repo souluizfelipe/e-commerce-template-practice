@@ -1,0 +1,9 @@
+.main-banner {
+    background-image: url(../../assets/img/Banner_1.png);
+    width: 419px;
+    height: 280px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding-top: 48px;
+    padding-left: 33px;
+}
