@@ -3,9 +3,9 @@
     font-family: var(--font-s6);
     font-weight: 600;
     font-size: 22px;
+    line-height: 33px;
 }
 
 .banner-title.-second {
     color: var(--color-c1i);
-    line-height: 33px;
 }
