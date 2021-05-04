@@ -1,0 +1,7 @@
+.section-wrapper {
+    background-color: var(--color-c1i);
+    padding: 64px 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
