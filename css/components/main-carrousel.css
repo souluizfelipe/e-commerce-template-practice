@@ -1,12 +1,10 @@
 .main-carrousel {
     display: flex;
     flex-direction: column;
-    position: relative;
 } 
 
 .main-carrousel .itens {
     overflow:hidden;
-    
 }
 
 .main-carrousel .elements {

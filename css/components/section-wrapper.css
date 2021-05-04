@@ -3,5 +3,20 @@
     padding: 64px 0px;
     display: flex;
     flex-direction: column;
-    
+    position: relative;    
+    border-bottom: 2px solid var(--color-c1h);
+}
+
+.section-wrapper .arrow-button {
+    position: absolute;
+    bottom: 170px;
+    transform: translateX(50%)
+}
+
+.section-wrapper .arrow-button.-left {
+    left: -15px;
+}
+
+.section-wrapper .arrow-button.-right {
+    right: 15px;
 }

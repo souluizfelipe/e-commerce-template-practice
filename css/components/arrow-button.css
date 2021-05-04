@@ -1,4 +1,23 @@
 .arrow-button {
-    position: absolute;
     cursor: pointer;
+    background-color: var(--color-c1a);
+    color: var(--color-c1i);
+    font-family: var(--font-s6);
+    font-size: 40px;
+    height: 48px;
+    width: 32px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.arrow-button .content {
+    display: none;
+}
+
+.arrow-button.-left {
+    border-radius: 0px 12px 12px 0px;
+}
+
+.arrow-button.-right {
+    border-radius: 12px 0px 0px 12px;
 }
