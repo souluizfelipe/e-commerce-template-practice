@@ -1,0 +1,17 @@
+.second-post {
+    width: 269px;
+    height: 343px;   
+}
+
+.second-post .img {
+    margin-bottom: 24px;
+}
+
+.second-post .banner-title {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.second-post .text-description {
+    margin-right: 8px;
+}
