@@ -1,0 +1,12 @@
+.post-tags {
+    font-family: var(--font-s6);
+    font-size: 12px;
+    font-weight: 600;
+    background-color: var(--color-c2e);
+    color: var(--color-c2a);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 12px;
+    display: inline;
+    line-height: 18px;
+}
