@@ -4,3 +4,8 @@
     font-weight: 600;
     font-size: 22px;
 }
+
+.banner-title.-second {
+    color: var(--color-c1i);
+    line-height: 33px;
+}
