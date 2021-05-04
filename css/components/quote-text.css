@@ -7,6 +7,8 @@
     color: var(--color-c1a);
     line-height: 22.5px;
     margin-bottom: 24px;
+    width: 305px;
+    
 }   
 
 .quote-text.-name {
@@ -14,4 +16,5 @@
     font-weight: 600;
     color: var(--color-c1c);
     text-align: center;
+    margin-bottom: 16px;
 }

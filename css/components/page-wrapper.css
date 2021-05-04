@@ -2,6 +2,6 @@
     max-width: 1260px;
     width: 100%;
     margin: auto;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
+    /* overflow: hidden;    */
 }
