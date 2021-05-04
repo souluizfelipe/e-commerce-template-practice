@@ -1,0 +1,16 @@
+.main-carrousel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+} 
+
+.main-carrousel .itens {
+    overflow:hidden;
+    
+}
+
+.main-carrousel .elements {
+    display: flex;
+    height: 228px;
+    transform: translateX(-165px);  
+}
