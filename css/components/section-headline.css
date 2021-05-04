@@ -1,0 +1,13 @@
+.section-headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 32px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.section-headline .main-button {
+    background-color: transparent;
+}
