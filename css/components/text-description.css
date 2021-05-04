@@ -1,0 +1,12 @@
+.text-description {
+    font-size: 12px;
+    font-family: var(--font-caption);
+    color: var(--color-c1i);
+    margin-left: 8px;  
+}
+
+.text-description.-second {
+    color: var(--color-c1a);
+    display: inline-block;
+    margin-left: 0;
+}
