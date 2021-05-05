@@ -1,13 +1,13 @@
-.main-carrousel {
+.main-carousel {
     display: flex;
     flex-direction: column;
 } 
 
-.main-carrousel .itens {
+.main-carousel .itens {
     overflow:hidden;
 }
 
-.main-carrousel .elements {
+.main-carousel .elements {
     display: flex;
     height: 228px;
     transform: translateX(-165px);  
