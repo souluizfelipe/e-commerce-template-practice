@@ -24,7 +24,7 @@
     margin-bottom: 0;
 }
 
-.product-card::before {
+.product-card.-discount::before {
     content: "-36%";
     font-family: var(--font-s6);
     font-size: 12px;
