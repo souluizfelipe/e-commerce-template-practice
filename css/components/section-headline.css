@@ -4,8 +4,7 @@
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 32px;
-    padding-left: 45px;
-    padding-right: 45px;
+    width: 100%;
 }
 
 .section-headline .main-button {
