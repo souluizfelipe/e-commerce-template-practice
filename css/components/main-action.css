@@ -2,6 +2,7 @@
     margin-right: 33px;
     text-decoration: none;
     color: var(--color-c1a);
+    position: relative;
 }
 
 .main-action:last-child {
@@ -10,4 +11,21 @@
 
 .main-action.-green {
     color: var(--color-c2a);
+}
+
+.main-action.-basket::before {
+    content: "4";
+    width: 16px;
+    height: 16px;
+    border-radius: 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: var(--color-c4a);
+    color: var(--color-c1i);
+    font-family: var(--font-s6);
+    font-size: 12px;
+    padding: 2px 4px;   
+    position: absolute; 
+    top: 5px;  
+    left: -5px;
 }
