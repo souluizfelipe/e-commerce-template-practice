@@ -2,7 +2,11 @@
     background-image: url(../../assets/img/Image-dark_blog_post.png);
     width: 469px;
     height: 400px;
-    padding: 270px 24px 24px;
+    padding: 24px;
     border-radius: 12px;
     box-sizing: border-box;
+}
+
+.main-post .post-tags {
+    margin-bottom: 228px;
 }
