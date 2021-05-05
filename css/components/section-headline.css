@@ -7,6 +7,17 @@
     width: 100%;
 }
 
+.section-headline.-second {
+    margin-bottom: 0px;
+}
+
+.section-headline .main-subtitle {
+    margin-bottom: 0px;
+}
+
 .section-headline .main-button {
     background-color: transparent;
+    padding: 0px;
+    height: 0px;
+    border-radius: 0px;
 }
