@@ -5,9 +5,10 @@
     font-family: var(--font-s6);
     font-weight: 600;
     color: var(--color-c1a);
+    line-height: 22.5px;
 }
 
-.main-subtitle.-product {
+.main-subtitle.-second {
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 4px;
