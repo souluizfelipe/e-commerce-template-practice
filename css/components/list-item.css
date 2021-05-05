@@ -3,3 +3,8 @@
     color: var(--color-c2a);
     text-decoration: underline;
 }
+
+.list-item.-second {
+    text-decoration: none;
+    margin-bottom: 16px;
+}
