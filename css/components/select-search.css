@@ -5,4 +5,16 @@
     border-radius: 12px;
     border: 1px solid var(--color-c1d);
     display: flex;
+    position: relative;
+    background-color: var(--color-c1h);
+}
+
+.select-search::before {
+    content: "";
+    height: 20px;
+    width: 1px;
+    position: absolute;
+    background-color: var(--color-c1d);
+    top: 10px;
+    left: 162px;
 }
