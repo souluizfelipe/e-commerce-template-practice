@@ -4,10 +4,21 @@
     font-family: var(--font-caption);
     font-weight: 400;
     font-size: 12px;
-    
     display: flex;
     justify-content: space-between;
     padding-left: 45px;
     padding-right: 45px;
     background-color: var(--color-c1i);
+    position: relative;
+}
+
+.main-nav::before {
+    content: "";
+    top: 48px;
+    height: 1px;
+    box-sizing: border-box;
+    width: calc(100% - 90px);
+    opacity: 5%;
+    border-bottom: 1px solid var(--color-c1a);
+    position: absolute;
 }
