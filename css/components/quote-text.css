@@ -1,6 +1,5 @@
 .quote-text {
     text-align: center;
-    text-justify: center;
     font-family: var(--font-s6);
     font-size: 15px;
     font-weight: 500;
@@ -8,7 +7,6 @@
     line-height: 22.5px;
     margin-bottom: 24px;
     width: 305px;
-    
 }   
 
 .quote-text.-name {
