@@ -1,0 +1,53 @@
+@mixin white-gradient {
+	// background: linear-gradient(to right,  rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+$animationSpeed: 20s;
+
+// Animation 
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-401px * 4))}
+} 
+
+
+ // Styling 
+.main-carousel {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    .itens{
+        display: flex;
+        animation: scroll $animationSpeed linear infinite;
+		display: flex;
+    }
+
+    .elements {
+        display: flex;
+        align-items: flex-start;
+        height: 228px;
+    }
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 228px;
+		position: absolute;
+		width: 88px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 120px;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 120px;
+	}
+
+}
