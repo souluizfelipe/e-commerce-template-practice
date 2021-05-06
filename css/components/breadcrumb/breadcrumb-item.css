@@ -1,0 +1,24 @@
+.breadcrumb-item {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.breadcrumb-item .action {
+    text-decoration: none;
+    color: var(--color-c1c);
+}
+
+.breadcrumb-item.-active .action {
+    color: var(--color-c1a);
+}
+
+
+.breadcrumb-item::before {
+    content: "/";
+    margin-right: 8px;
+    color: var(--color-c1c);
+}
+
+.breadcrumb-item:first-of-type::before {
+    content: "";
+}

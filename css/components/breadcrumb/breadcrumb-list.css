@@ -1,0 +1,6 @@
+.breadcrumb-list {
+    font-family: var(--font-caption);
+    font-size: 12px;
+    line-height: 16px;
+    list-style: none;
+}
