@@ -1,11 +1,12 @@
 .main-reviews {
+    box-sizing: border-box;
     border: 2px solid var(--color-c1j);
     border-radius: 12px;
     padding: 24px 32px;
     background-color: var(--color-c1i);
     margin-right: 32px; 
-    max-height: 198px;   
-    box-sizing: border-box;
+    max-height: 198px;  
+    width: 369px; 
 }
 
 .main-reviews .picture {
@@ -13,8 +14,4 @@
     margin-left: auto;
     margin-right: auto;
     transform: translateY(-15%);    
-}
-
-.main-reviews:last-of-type {
-    margin-right: 0;
 }
