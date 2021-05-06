@@ -1,0 +1,7 @@
+.banner-subtitle {
+    color: var(--color-c2a);
+    font-family: var(--font-s6);
+    font-size: 12px;
+    width: 600px;
+    margin-bottom: 8px;
+}

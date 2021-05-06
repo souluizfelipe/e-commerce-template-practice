@@ -1,0 +1,6 @@
+.category-title{
+    font-family: var(--font-s6), sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+}
