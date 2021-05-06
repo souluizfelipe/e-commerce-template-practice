@@ -1,0 +1,12 @@
+.title-section {
+    padding: 8px 45px;
+    background-color: var(--color-c1i);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-section .right {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+}
