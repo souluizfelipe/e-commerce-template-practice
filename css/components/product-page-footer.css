@@ -1,0 +1,11 @@
+.product-page-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 45px;
+}
+
+.product-page-footer .left, .right{
+    display: flex;
+    align-items: center;
+
+}
