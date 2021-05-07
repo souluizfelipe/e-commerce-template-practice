@@ -1,0 +1,14 @@
+.product-grid {
+    box-sizing: border-box;
+    width: 869px;
+    height: 1176px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-grid .line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
