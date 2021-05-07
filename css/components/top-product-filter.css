@@ -1,0 +1,15 @@
+.top-product-filter {
+    padding: 16px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+}
+.top-product-filter .filters {
+    display: flex;
+    flex-direction: row;
+}
+
+.radio-filter, .check-filter {
+    display: inline-block;
+}
