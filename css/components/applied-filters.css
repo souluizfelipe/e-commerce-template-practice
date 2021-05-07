@@ -1,0 +1,25 @@
+.applied-filters{
+    display: flex;
+    align-items: baseline;
+}
+
+.applied-filters .title {
+    font-family: var(--font-s6);
+    font-size: 14px; 
+    margin-right: 12px;
+    color: var(--color-c1c);
+}
+
+.applied-filters .post-tags {
+    margin-right: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex; 
+    align-items: center;
+}
+
+.applied-filters .post-tags .close {
+    display: flex;
+    align-content: center;
+    margin-left: 4px;
+}
