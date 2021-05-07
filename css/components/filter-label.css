@@ -1,0 +1,9 @@
+.filter-label {
+    font-family: var(--font-caption);
+    font-size: 14px; 
+    margin-right: 16px;
+}
+
+.filter-label:last-of-type {
+    margin-right: 0px;
+}
