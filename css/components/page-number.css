@@ -1,0 +1,12 @@
+.page-number {
+    color: var(--color-c1a);
+    text-decoration: none;
+    font-family: var(--font-caption);
+    font-size: 12px;
+    margin-left: 8px;
+    line-height: 16px;
+}
+
+.page-number.-active {
+    color: var(--color-c2a);
+}
