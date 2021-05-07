@@ -50,6 +50,12 @@
 
     <link rel="stylesheet" href="css/components/side-filter.css">
     <link rel="stylesheet" href="css/components/product-grid.css">
+    <link rel="stylesheet" href="css/components/filter-group.css">
+    <link rel="stylesheet" href="css/components/radio-filter.css">
+    <link rel="stylesheet" href="css/components/filter-label.css">
+    <link rel="stylesheet" href="css/components/applied-filters.css">
+
+    <link rel="stylesheet" href="css/components/data-input.css">
 
     <link rel="stylesheet" href="css/components/product-page-footer.css">
     <link rel="stylesheet" href="css/components/page-number.css">
@@ -127,26 +133,26 @@
         </div>
         <div class="top-product-filter">
             <div class="filters">
-                <div>
+                <div class="filter-group">
                     <input class="radio-filter" type="radio" name="first-filter" id="first-filter" value="Filtre text">
-                    <label for="first-filter">Filtre text</label>
+                    <label class="filter-label" for="first-filter">Filtre text</label>
                     <input class="radio-filter" type="radio" name="second-filter" id="second-filter" checked>
-                    <label for="second-filter">Filtre text</label>
+                    <label class="filter-label" for="second-filter">Filtre text</label>
                 </div>
-                <div>
+                <div class="filter-group">
                     <input class="check-filter" type="checkbox" name="third-filter" id="third-filter">
-                    <label for="third-filter">Filtre</label>
-                    <p class="post-tags -second">Nbm</p>
+                    <label class="filter-label" for="third-filter">Filtre</label>
+                    <p class="post-tags -second -filter">Nbm</p>
                 </div>
-                <div>
+                <div class="filter-group">
                     <input class="check-filter" type="checkbox" name="fourth-filter" id="fourth-filter">
-                    <label for="fourth-filter">Filtre</label>
-                    <p class="post-tags -second">Nbm</p>
+                    <label class="filter-label" for="fourth-filter">Filtre</label>
+                    <p class="post-tags -second -filter">Nbm</p>
                 </div>
-                <div>
-                    <input class="check-filter" type="checkbox" name="fifth-filter" id="fifth-filter">
-                    <label for="fifth-filter">Filtre</label>
-                    <p class="post-tags -second">12</p>
+                <div class="filter-group -second">
+                    <input class="check-filter" type="checkbox" name="fifth-filter" id="fifth-filter" checked>
+                    <label class="filter-label" for="fifth-filter">Filtre</label>
+                    <p class="post-tags -second -filter">12</p>
                     <select name="fifth-filter" id="fifth-filter" class="main-select -categories">
                         <option value="select">select</option>
                     </select>
@@ -154,13 +160,106 @@
             </div>
             <div class="applied-filters">
                 <p class="title">Applied filters:</p>
-                <p class="post-tags -filter">Selected Filtre</p>
-                <p class="post-tags -filter">Selected Filtre</p>
+                <div class="post-tags -filter">
+                    <p>Selected Filtre</p>
+                    <button class="close"><img src="assets/img/ic-actions-close-simple.png" alt=""></button>
+                </div>
+                <div class="post-tags -filter">
+                    <p>Selected Filtre</p>
+                    <button class="close"><img src="assets/img/ic-actions-close-simple.png" alt=""></button>
+                </div>
             </div>
         </div>
         <section class="main-section">
             <div class="side-filter">
-
+                <div class="groups">
+                    <h3 class="main-subtitle">Categories</h3>
+                    <div class="itens">
+                        <a href="" class="title">Category name</a>
+                        <p class="post-tags">320</p>
+                    </div>
+                    <div class="itens">
+                        <a href="" class="title">Category name</a>
+                        <p class="post-tags">112</p>
+                    </div>
+                    <div class="itens">
+                        <a href="" class="title">Category name</a>
+                        <p class="post-tags">32</p>
+                    </div>
+                    <div class="itens">
+                        <a href="" class="title">Category name</a>
+                        <p class="post-tags">48</p>
+                    </div>
+                </div>
+                <div class="groups">
+                    <h3 class="main-subtitle">Brands</h3>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="brand-item-1" id="brand-item-1">
+                        <label class="filter-label" for="brand-item-1">Filtre by brand item</label>
+                    </div>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="brand-item-2" id="brand-item-2" checked>
+                        <label class="filter-label" for="brand-item-2">Filtre by brand item</label>
+                    </div>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="brand-item-3" id="brand-item-3" checked>
+                        <label class="filter-label" for="brand-item-3">Filtre by brand item</label>
+                    </div>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="brand-item-4" id="brand-item-4">
+                        <label class="filter-label" for="brand-item-4">Filtre by brand item</label>
+                    </div>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="brand-item-5" id="brand-item-5">
+                        <label class="filter-label" for="brand-item-5">Filtre by brand item</label>
+                    </div>
+                </div>
+                <div class="groups">
+                    <h3 class="main-subtitle">Rating</h3>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="rating-5" id="rating-5" checked>
+                        <label for="rating-5"><img src="assets/img/rating-5.png" alt="Rating five stars"></label>
+                    </div>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="rating-4" id="rating-4">                        
+                        <label for=""><img src="assets/img/rating-4.png" alt="Rating four stars"></label>
+                    </div>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="rating-3" id="rating-3">
+                        <label for=""><img src="assets/img/rating-3.png" alt="Rating three stars"></label>
+                    </div>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="rating-2" id="rating-2">
+                        <label for=""><img src="assets/img/rating-2.png" alt="Rating two stars"></label>
+                    </div>
+                    <div class="itens -second">
+                        <input class="check-filter" type="checkbox" name="rating-1" id="rating-1">
+                        <label for=""><img src="assets/img/rating-1.png" alt="Rating one star"></label>
+                    </div>
+                </div>
+                <div class="groups">
+                    <h3 class="main-subtitle">Price</h3>
+                    <div class="elements">
+                        <div class="itens">
+                            <input type="range" name="price-range" id="price-range" min="0" max="10000" step="10" list="price-min">
+                        </div>
+                        <div class="itens -third">
+                            <div>
+                                <p class="label">Min</p>
+                                <input class="data-input -min" type="text" name="price-min" id="price-min" placeholder="0">
+                            </div>
+                            <div class="separator">-</div>
+                            <div>
+                                <p class="label">Max</p>
+                                <input class="data-input -max" type="text" name="price-max" id="price-max" placeholder="0000">
+                            </div>
+                        </div>
+                        <div class="itens -second">
+                            <button class="main-button -third">Apply</button>
+                            <button class="main-button -forth">Reset</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="product-grid">
                 <div class="line">
