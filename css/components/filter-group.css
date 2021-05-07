@@ -1,0 +1,18 @@
+.filter-group {
+    margin-right: 16px;
+    padding: 9px 16px;
+    border-radius: 12px;
+    background-color: var(--color-c1h);
+    border: 1px solid var(--color-c1d);
+    position: relative;
+}
+
+.filter-group.-second::before {
+    content: "";
+    height: 20px;
+    width: 1px;
+    position: absolute;
+    background-color: var(--color-c1d);
+    top: 12px;
+    left: 120px;
+}
