@@ -1,6 +1,59 @@
 .side-filter {
     width: 267px;
     height: 939px;
-    background-color: gray;
-    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side-filter .groups {
+    margin-bottom: 48px;
+}
+
+.side-filter .groups .itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.side-filter .groups .itens:last-of-type {
+    margin-bottom: 0px;
+}
+
+.side-filter .groups .itens .title {
+    font-family: var(--font-caption);
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-c1a);
+    text-decoration: none;
+}
+
+.side-filter .groups .itens.-second {
+    justify-content: flex-start;
+}
+
+.side-filter .groups .itens.-third {
+    margin-bottom: 31px;
+}
+
+.side-filter .groups .itens.-second .check-filter {
+    margin-right: 8px;
+}
+
+.side-filter .groups .elements {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-filter .elements .itens .label {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--font-s6);
+    line-height: 18px;
+}
+
+.side-filter .main-button {
+    padding-right: 16px;
+    margin-right: 34px;
 }
