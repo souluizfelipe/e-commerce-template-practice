@@ -9,6 +9,7 @@
     box-sizing: border-box;
     color: var(--color-c1a);
     position: relative;
+    cursor: pointer;
 }
 
 .main-button.-banner {
@@ -37,4 +38,9 @@
     position: absolute;
     bottom: 10px; 
     left: 190px;
+}
+
+.main-button.-forth {
+    background-color: transparent;
+    color: var(--color-c1c);
 }
