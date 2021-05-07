@@ -42,7 +42,14 @@
     <link rel="stylesheet" href="css/components/view-options.css">
 
     <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/product-card.css">
+    <link rel="stylesheet" href="css/components/product-description.css">
+    <link rel="stylesheet" href="css/components/product-image.css">
 
+    <link rel="stylesheet" href="css/components/top-product-filter.css">
+
+    <link rel="stylesheet" href="css/components/side-filter.css">
+    <link rel="stylesheet" href="css/components/product-grid.css">
 
     <link rel="stylesheet" href="css/components/product-page-footer.css">
     <link rel="stylesheet" href="css/components/page-number.css">
@@ -118,8 +125,160 @@
                 <p class="view-options -product">Products</p>
             </div>
         </div>
+        <div class="top-product-filter">
+            <div class="filters">
+                <div>
+                    <input class="radio-filter" type="radio" name="first-filter" id="first-filter" value="Filtre text">
+                    <label for="first-filter">Filtre text</label>
+                    <input class="radio-filter" type="radio" name="second-filter" id="second-filter" checked>
+                    <label for="second-filter">Filtre text</label>
+                </div>
+                <div>
+                    <input class="check-filter" type="checkbox" name="third-filter" id="third-filter">
+                    <label for="third-filter">Filtre</label>
+                    <p class="post-tags -second">Nbm</p>
+                </div>
+                <div>
+                    <input class="check-filter" type="checkbox" name="fourth-filter" id="fourth-filter">
+                    <label for="fourth-filter">Filtre</label>
+                    <p class="post-tags -second">Nbm</p>
+                </div>
+                <div>
+                    <input class="check-filter" type="checkbox" name="fifth-filter" id="fifth-filter">
+                    <label for="fifth-filter">Filtre</label>
+                    <p class="post-tags -second">12</p>
+                    <select name="fifth-filter" id="fifth-filter" class="main-select -categories">
+                        <option value="select">select</option>
+                    </select>
+                </div>
+            </div>
+            <div class="applied-filters">
+                <p class="title">Applied filters:</p>
+                <p class="post-tags -filter">Selected Filtre</p>
+                <p class="post-tags -filter">Selected Filtre</p>
+            </div>
+        </div>
+        <section class="main-section">
+            <div class="side-filter">
 
-        
+            </div>
+            <div class="product-grid">
+                <div class="line">
+                    <div class="product-card">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">1.48 USD</h3>
+                                <h3 class="main-subtitle -oldPrice"></h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="product-card -discount">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">0.28 USD</h3>
+                                <h3 class="main-subtitle -oldPrice">48.56</h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="product-card -discount">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">1.12 USD</h3>
+                                <h3 class="main-subtitle -oldPrice">48.56</h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="product-card">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">1.48 USD</h3>
+                                <h3 class="main-subtitle -oldPrice"></h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="product-card -discount">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">0.28 USD</h3>
+                                <h3 class="main-subtitle -oldPrice">48.56</h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="product-card -discount">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">1.12 USD</h3>
+                                <h3 class="main-subtitle -oldPrice">48.56</h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="product-card">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">1.48 USD</h3>
+                                <h3 class="main-subtitle -oldPrice"></h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="product-card -discount">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">0.28 USD</h3>
+                                <h3 class="main-subtitle -oldPrice">48.56</h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="product-card -discount">
+                        <img src="assets/img/product-Image-light.png" alt="product image" class="product-image">
+                        <h3 class="main-subtitle -second">Product Title</h3>
+                        <p class="product-description">Space for a small product description</p>
+                        <div class="cardPrice"> 
+                            <div class="price">
+                                <h3 class="main-subtitle">1.12 USD</h3>
+                                <h3 class="main-subtitle -oldPrice">48.56</h3>
+                            </div>
+                            <button class="main-button -second">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="product-page-footer">
             <div class="left">
                 <p class="view-options -product">Page:</p>    
