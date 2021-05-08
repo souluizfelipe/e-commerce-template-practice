@@ -3,3 +3,11 @@
     font-size: 12px;
     color: var(--color-c1b);
 }
+
+.product-description.-second {
+    margin-bottom: 8px;
+}
+
+.product-description.-specs {
+    margin-bottom: 12px;
+}
