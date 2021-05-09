@@ -1,0 +1,22 @@
+.button-transparent-border {
+    border: 2px solid var(--color-c2c);
+    border-radius: 12px;
+    font-family: var(--font-s6);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    background: transparent;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-transparent-border.-banner {
+    padding: 11px 14px;
+}
+
+.button-transparent-border .button-icon {
+    margin-left: 6px;
+}
