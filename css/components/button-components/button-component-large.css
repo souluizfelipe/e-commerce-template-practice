@@ -1,0 +1,23 @@
+.button-component-large {
+    font-family: var(--font-s6);
+    font-size: 15px;
+    border-radius: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    color: var(--color-c1a);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.button-component-large .button-icon {
+    margin-left: 6px;
+} 
+
+.button-component-large.-transparent-border {
+    border: 2px solid var(--color-c2c);
+    background: transparent;
+}
