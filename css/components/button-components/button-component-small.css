@@ -1,0 +1,20 @@
+.button-component-small {
+    font-family: var(--font-s6);
+    font-size: 15px;
+    border-radius: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    color: var(--color-c1a);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+.button-component-small.-colored-border {
+    border: 2px solid var(--color-c2b);
+    background-color: var(--color-c2a);
+    color: var(--color-c1i);
+}
+
