@@ -1,6 +1,7 @@
 .button-transparent-border {
     border: 2px solid var(--color-c2c);
     border-radius: 12px;
+    color: var(--color-c1a);
     font-family: var(--font-s6);
     font-size: 15px;
     font-weight: 700;
