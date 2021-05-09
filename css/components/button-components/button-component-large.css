@@ -16,6 +16,11 @@
     margin-left: 6px;
 } 
 
+.button-component-large .button-icon.-right {
+    margin-left: 0px;
+    margin-right: 6px;
+}
+
 .button-component-large.-transparent-border {
     border: 2px solid var(--color-c2c);
     background: transparent;
@@ -26,6 +31,12 @@
     background-color: var(--color-c1f);
 }
 
-.button-component-large.-trnaparent-no-border {
+.button-component-large.-transparent-no-border {
     background: transparent;
+}
+
+.button-component-large.-colored-border {
+    border: 2px solid var(--color-c2b);
+    background-color: var(--color-c2a);
+    color: var(--color-c1i);
 }

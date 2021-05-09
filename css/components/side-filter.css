@@ -53,7 +53,11 @@
     line-height: 18px;
 }
 
-.side-filter .main-button {
+.side-filter .button-component-small {
     padding-right: 16px;
     margin-right: 34px;
+}
+
+.side-filter .button-component-small.-transparent-no-border {
+    color: var(--color-c1c);
 }
