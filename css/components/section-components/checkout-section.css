@@ -61,7 +61,6 @@
     box-sizing: border-box;
 }
 
-
 .shipping-method-section .option-background:last-of-type {
     margin-bottom: 0px;
 }
@@ -71,7 +70,7 @@
     align-content: center;
 }
 
-.shipping-method-section .option-background .option-label .s6-default {
+.checkout-section .option-background .option-label .s6-default {
     margin-left: 16px;
 }
 
@@ -111,10 +110,6 @@
     align-items: center;
 }
 
-.checkout-section .payment-method-section .credit-card-option .input .items .s6-default {
-    margin-left: 16px;
-}
-
 .checkout-section .payment-method-section .credit-card-option .input .items .credit-card-logo {
     margin-left: 12px;
 }
@@ -129,11 +124,11 @@
     flex-direction: row;
 }
 
-.checkout-section .payment-method-section .credit-card-option .card-info-misc .input-default.-medium {
+.checkout-section .input-default.-medium {
     width: 350px;
 }
 
-.checkout-section .payment-method-section .credit-card-option .card-info-misc .input-default.-small {
+.checkout-section .input-default.-small {
     width: 120px;
 }
 
@@ -156,11 +151,6 @@
     justify-content: space-between;
     box-sizing: border-box;
 }
-
-.checkout-section .payment-method-section .option-background .option-label .s6-default {
-    margin-left: 16px;
-}
-
 
 .checkout-section .confirmation-section .option-background {
     height: 42px;
