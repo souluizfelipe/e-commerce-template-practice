@@ -1,0 +1,7 @@
+.s3-default {
+    font-family: var(--font-s6);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: var(--color-c1a);
+}
