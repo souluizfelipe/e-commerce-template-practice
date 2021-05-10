@@ -1,0 +1,7 @@
+.item {
+    width: 85px;
+}
+
+.item:nth-child(odd) {
+    color: var(--color-c1d);
+}
