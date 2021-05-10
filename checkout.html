@@ -160,17 +160,82 @@
                         <label class="body-default" for="shipping-address">Ship to a different address?</label>
                     </div>
                 </div>
-                <div class="billing-method-section">
+                <div class="shipping-method-section">
                     <div class="title">
-                        <h2 class="s3-default">Billing method</h2>
+                        <h2 class="s3-default">Shipping method</h2>
                         <div class="caption">
                             <p class="caption-default">Please enter your payment method</p>
                             <p class="caption-default">Step 2 of 5</p>
                         </div>
                     </div>
+                    <div class="filter-group">
+                        <div class="shipping-option">
+                            <input type="radio" name="shipping-option" id="shipping-option">
+                            <label class="s6-default" for="shipping-option">FedEx</label>
+                        </div>
+                        <div class="additional-price">
+                            <p class="s6-default">+ 32 USD</p>
+                            <p class="s6-default">Additional price</p>
+                        </div>
+                        <img src="assets/img/fedex-logo.png" alt="logo fedex">
+                    </div>
+                    <div class="filter-group">
+                        <div class="shipping-option">
+                            <input type="radio" name="shipping-option" id="shipping-option">
+                            <label class="s6-default" for="shipping-option">DHL</label>
+                        </div>
+                        <div class="additional-price">
+                            <p class="s6-default">+ 15 USD</p>
+                            <p class="s6-default">Additional price</p>
+                        </div>
+                        <img src="assets/img/dhl-logo.png" alt="logo dhl">
+                    </div>
+                </div>
+                <div class="payment-method-section">
+                    <div class="title">
+                        <h2 class="s3-default">Payment method</h2>
+                        <div class="caption">
+                            <p class="caption-default">Please enter your payment method</p>
+                            <p class="caption-default">Step 3 of 5</p>
+                        </div>
+                    </div>
+                    <div class="credit-card-option">
+                        <div class="input">
+                            <div class="items">
+                                <input type="radio" name="credit-card" id="credit-card">
+                                <label class="s6-default" for="credit-card">Credit card</label>
+                            </div>
+                            <div class="items">
+                                <img class="credit-card-logo" src="assets/img/Visa_Inc._logo 1.png" alt="visa logo">
+                                <img class="credit-card-logo" src="assets/img/mc-logo.png" alt="mastercard logo">
+                            </div>
+                        </div>
+                        <div class="credit-card-info">
+                            <div class="card-number">
+                                <p class="s6-default">Card number</p>
+                                <input type="text" class="input-default" placeholder="0000-0000-0000-0000">
+                            </div>
+                            <div class="card-info-misc">
+                                <div class="items">
+                                    <p class="s6-default">Card holder</p>
+                                    <input type="text" class="input-default -medium" placeholder="Card holder">
+                                </div>
+                                <div class="items">
+                                    <p class="s6-default">Expiration date</p>
+                                    <input type="text" class="input-default -small" placeholder="DD/MM//YY">
+                                </div>
+                                <div class="items">
+                                    <p class="s6-default">CVC</p>
+                                    <input type="text" class="input-default -small" placeholder="000">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="order-summary-section">
+                
 
             </div>
         </section>
