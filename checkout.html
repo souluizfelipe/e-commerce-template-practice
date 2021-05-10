@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/components/section-components/checkout-section.css">
     <link rel="stylesheet" href="css/components/product-description.css">
     <link rel="stylesheet" href="css/components/input-components/input-default.css">
-    <link rel="stylesheet" href="css/components/filter-group.css">
+    <link rel="stylesheet" href="css/components/option-background.css">
     <link rel="stylesheet" href="css/components/filter-label.css">
 
     <link rel="stylesheet" href="css/components/multiple-lists.css">
@@ -116,7 +116,7 @@
         </div>
         <section class="checkout-section">
             <div class="payments-info-section">
-                <div class="billing-info">
+                <div class="billing-info-section">
                     <div class="title">
                         <h2 class="s3-default">Billing info</h2>
                         <div class="caption">
@@ -158,7 +158,7 @@
                             <input class="input-default" type="text" name="postal-code-or-zip" id="postal-code-or-zip" placeholder="Postal code or ZIP">
                         </div>
                     </div>
-                    <div class="filter-group">
+                    <div class="option-background">
                         <input class="" type="radio" name="shipping-address" id="shipping-address">
                         <label class="body-default" for="shipping-address">Ship to a different address?</label>
                     </div>
@@ -171,8 +171,8 @@
                             <p class="caption-default">Step 2 of 5</p>
                         </div>
                     </div>
-                    <div class="filter-group">
-                        <div class="shipping-option">
+                    <div class="option-background">
+                        <div class="option-label">
                             <input type="radio" name="shipping-option" id="shipping-option">
                             <label class="s6-default" for="shipping-option">FedEx</label>
                         </div>
@@ -182,8 +182,8 @@
                         </div>
                         <img src="assets/img/fedex-logo.png" alt="logo fedex">
                     </div>
-                    <div class="filter-group">
-                        <div class="shipping-option">
+                    <div class="option-background">
+                        <div class="option-label">
                             <input type="radio" name="shipping-option" id="shipping-option">
                             <label class="s6-default" for="shipping-option">DHL</label>
                         </div>
@@ -234,15 +234,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="filter-group">
-                        <div class="shipping-option">
+                    <div class="option-background">
+                        <div class="option-label">
                             <input type="radio" name="paypal-option" id="paypal-option">
                             <label class="s6-default" for="paypal-option">PayPal</label>
                         </div>
                         <img src="assets/img/PayPal-logo.png" alt="logo paypal">
                     </div>
-                    <div class="filter-group">
-                        <div class="shipping-option">
+                    <div class="option-background">
+                        <div class="option-label">
                             <input type="radio" name="bitcoin-option" id="bitcoin-option">
                             <label class="s6-default" for="bitcoin-option">Bitcoin</label>
                         </div>
@@ -268,14 +268,14 @@
                             <p class="caption-default">Step 5 of 5</p>
                         </div>
                     </div>
-                    <div class="filter-group">
-                        <input type="checkbox" name="agree-marketing-terms" id="agree-marketing-terms">
-                        <label class="s6-default" for="agree-marketing-terms">I agree with sending an Marketing and newsletter emails. No spam, promissed!</label>
-                    </div>
-                    <div class="filter-group">
-                        <input type="checkbox" name="agree-marketing-terms" id="agree-marketing-terms">
-                        <label class="s6-default" for="agree-marketing-terms">I agree with sending an Marketing and newsletter emails. No spam, promissed!</label>
-                    </div>
+                        <div class="option-background">
+                            <input type="checkbox" name="agree-marketing-terms" id="agree-marketing-terms">
+                            <label class="body-default" for="agree-marketing-terms">I agree with sending an Marketing and newsletter emails. No spam, promissed!</label>
+                        </div>
+                        <div class="option-background">
+                            <input type="checkbox" name="agree-marketing-terms" id="agree-marketing-terms">
+                            <label class="body-default" for="agree-marketing-terms">I agree with our terms and conditions and privacy policy.</label>
+                        </div>
                     <button class="button-component-large -colored-border">Complete order</button>
                     <img src="assets/img/security.png" alt="security">
                 </div>
