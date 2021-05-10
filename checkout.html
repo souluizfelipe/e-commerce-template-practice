@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/components/breadcrumb/breadcrumb-list.css">
     <link rel="stylesheet" href="css/components/breadcrumb/breadcrumb-item.css">
 
-    <link rel="stylesheet" href="css/components/checkout-page-components/checkout-section.css">
+    <link rel="stylesheet" href="css/components/section-components/checkout-section.css">
     <link rel="stylesheet" href="css/components/product-description.css">
     <link rel="stylesheet" href="css/components/input-components/input-default.css">
     <link rel="stylesheet" href="css/components/filter-group.css">
@@ -42,6 +42,12 @@
     <link rel="stylesheet" href="css/components/multiple-lists.css">
     <link rel="stylesheet" href="css/components/product-tags.css">
     <link rel="stylesheet" href="css/components/copyright-text.css">
+
+    <link rel="stylesheet" href="css/components/text-components/body-default.css">
+    <link rel="stylesheet" href="css/components/text-components/caption-default.css">
+    <link rel="stylesheet" href="css/components/text-components/s3-default.css">
+    <link rel="stylesheet" href="css/components/text-components/s6-default.css">
+
 </head>
 <body>
     <div class="page-wrapper">
@@ -109,47 +115,58 @@
             <div class="payments-info-section">
                 <div class="billing-info">
                     <div class="title">
-                        <h2 class="main-subtitle">Billing info</h2>
-                        <p class="product-description">Please enter your billing info</p>
-                        <p class="product-description">Step 1 of 5</p>
+                        <h2 class="s3-default">Billing info</h2>
+                        <div class="caption">
+                            <p class="caption-default">Please enter your billing info</p>
+                            <p class="caption-default">Step 1 of 5</p>
+                        </div>
                     </div>
                     <div class="info-input">
                         <div class="input">
-                            <p class="input-title">First name</p>
+                            <p class="s6-default">First name</p>
                             <input class="input-default" type="text" name="first-name" id="first-name" placeholder="First name">
                         </div>
                         <div class="input">
-                            <p class="input-title">Last name</p>
+                            <p class="s6-default">Last name</p>
                             <input class="input-default" type="text" name="Llst-name" id="last-name" placeholder="Last name">
                         </div>
                         <div class="input">
-                            <p class="input-title">Email address</p>
+                            <p class="s6-default">Email address</p>
                             <input class="input-default" type="email" name="email-address" id="email-address" placeholder="Email address">
                         </div>
                         <div class="input">
-                            <p class="input-title">Phone number</p>
+                            <p class="s6-default">Phone number</p>
                             <input class="input-default" type="tel" name="phone-number" id="phone-number" placeholder="Phone number">
                         </div>
                         <div class="input">
-                            <p class="input-title">Address</p>
+                            <p class="s6-default">Address</p>
                             <input class="input-default" type="text" name="address" id="address" placeholder="Address">
                         </div>
                         <div class="input">
-                            <p class="input-title">Town / City</p>
+                            <p class="s6-default">Town / City</p>
                             <input class="input-default" type="text" name="town-city" id="town-city" placeholder="Town or City">
                         </div>
                         <div class="input">
-                            <p class="input-title">State / Country</p>
+                            <p class="s6-default">State / Country</p>
                             <input class="input-default" type="text" name="state-or-country" id="state-or-country" placeholder="Choose a state or Country">
                         </div>
                         <div class="input">
-                            <p class="input-title">ZIP/Postal code</p>
+                            <p class="s6-default">ZIP/Postal code</p>
                             <input class="input-default" type="text" name="postal-code-or-zip" id="postal-code-or-zip" placeholder="Postal code or ZIP">
                         </div>
                     </div>
                     <div class="filter-group">
                         <input class="" type="radio" name="shipping-address" id="shipping-address">
-                        <label class="filter-label" for="shipping-address">Ship to a different address?</label>
+                        <label class="body-default" for="shipping-address">Ship to a different address?</label>
+                    </div>
+                </div>
+                <div class="billing-method-section">
+                    <div class="title">
+                        <h2 class="s3-default">Billing method</h2>
+                        <div class="caption">
+                            <p class="caption-default">Please enter your payment method</p>
+                            <p class="caption-default">Step 2 of 5</p>
+                        </div>
                     </div>
                 </div>
             </div>
