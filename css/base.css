@@ -20,6 +20,10 @@
 }
 
 body {
-     background-color: #e6e6e6; /*temporary color */
+    background-color: #e6e6e6; /*temporary color */
+    font-family: var(--font-caption);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
 }
 
