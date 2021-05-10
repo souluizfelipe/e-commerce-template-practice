@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/components/main-categories.css">
 
     <link rel="stylesheet" href="css/components/main-section.css">
-    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/title-components/main-subtitle.css">
     <link rel="stylesheet" href="css/components/main-list.css">
     <link rel="stylesheet" href="css/components/list-item.css">
 
@@ -32,6 +32,12 @@
     <link rel="stylesheet" href="css/components/breadcrumb/breadcrumb-section.css">
     <link rel="stylesheet" href="css/components/breadcrumb/breadcrumb-list.css">
     <link rel="stylesheet" href="css/components/breadcrumb/breadcrumb-item.css">
+
+    <link rel="stylesheet" href="css/components/checkout-page-components/checkout-section.css">
+    <link rel="stylesheet" href="css/components/product-description.css">
+    <link rel="stylesheet" href="css/components/input-components/input-default.css">
+    <link rel="stylesheet" href="css/components/filter-group.css">
+    <link rel="stylesheet" href="css/components/filter-label.css">
 
     <link rel="stylesheet" href="css/components/multiple-lists.css">
     <link rel="stylesheet" href="css/components/product-tags.css">
@@ -100,7 +106,54 @@
             </ol>
         </div>
         <section class="checkout-section">
-            <div>
+            <div class="payments-info-section">
+                <div class="billing-info">
+                    <div class="title">
+                        <h2 class="main-subtitle">Billing info</h2>
+                        <p class="product-description">Please enter your billing info</p>
+                        <p class="product-description">Step 1 of 5</p>
+                    </div>
+                    <div class="info-input">
+                        <div class="input">
+                            <p class="input-title">First name</p>
+                            <input class="input-default" type="text" name="first-name" id="first-name" placeholder="First name">
+                        </div>
+                        <div class="input">
+                            <p class="input-title">Last name</p>
+                            <input class="input-default" type="text" name="Llst-name" id="last-name" placeholder="Last name">
+                        </div>
+                        <div class="input">
+                            <p class="input-title">Email address</p>
+                            <input class="input-default" type="email" name="email-address" id="email-address" placeholder="Email address">
+                        </div>
+                        <div class="input">
+                            <p class="input-title">Phone number</p>
+                            <input class="input-default" type="tel" name="phone-number" id="phone-number" placeholder="Phone number">
+                        </div>
+                        <div class="input">
+                            <p class="input-title">Address</p>
+                            <input class="input-default" type="text" name="address" id="address" placeholder="Address">
+                        </div>
+                        <div class="input">
+                            <p class="input-title">Town / City</p>
+                            <input class="input-default" type="text" name="town-city" id="town-city" placeholder="Town or City">
+                        </div>
+                        <div class="input">
+                            <p class="input-title">State / Country</p>
+                            <input class="input-default" type="text" name="state-or-country" id="state-or-country" placeholder="Choose a state or Country">
+                        </div>
+                        <div class="input">
+                            <p class="input-title">ZIP/Postal code</p>
+                            <input class="input-default" type="text" name="postal-code-or-zip" id="postal-code-or-zip" placeholder="Postal code or ZIP">
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <input class="" type="radio" name="shipping-address" id="shipping-address">
+                        <label class="filter-label" for="shipping-address">Ship to a different address?</label>
+                    </div>
+                </div>
+            </div>
+            <div class="order-summary-section">
 
             </div>
         </section>
