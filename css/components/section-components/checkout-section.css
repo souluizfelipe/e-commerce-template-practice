@@ -36,18 +36,13 @@
     justify-content: space-between;
 }
 
-.checkout-section .info-input .input-default {
+.checkout-section .info-input .input .input-default {
     margin-bottom: 32px;
 }
 
-.checkout-section .filter-group {
+.checkout-section .billing-info .filter-group {
     width: 243px;
     height: 42px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
-    box-sizing: border-box;
 }
 
 .checkout-section .order-summary-section {
@@ -67,15 +62,11 @@
     justify-content: space-between;
     align-content: center;
     margin-bottom: 16px;
+    box-sizing: border-box;
 }
 
 .shipping-method-section .filter-group:last-of-type {
     margin-bottom: 0px;
-}
-
-.shipping-method-section .filter-group .shipping-option {
-    display: flex;
-    align-items: center;
 }
 
 .shipping-method-section .filter-group .shipping-option .s6-default {
@@ -158,4 +149,33 @@
 
 .checkout-section .payment-method-section .credit-card-option .card-info-misc .items {
     margin-right: 16px;
+}
+
+.checkout-section .payment-method-section .filter-group {
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.checkout-section .payment-method-section .filter-group .shipping-option .s6-default {
+    margin-left: 16px;
+}
+
+.checkout-section .additional-info-section {
+    margin-bottom: 32px;
+}
+
+
+.checkout-section .button-component-large {
+    padding: 16px 48px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.checkout-section .confirmation-section .filter-group {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 16px;
 }

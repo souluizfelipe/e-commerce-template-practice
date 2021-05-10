@@ -48,6 +48,9 @@
     <link rel="stylesheet" href="css/components/text-components/s3-default.css">
     <link rel="stylesheet" href="css/components/text-components/s6-default.css">
 
+    <link rel="stylesheet" href="css/components/input-components/text-area-default.css">
+    <link rel="stylesheet" href="css/components/button-components/button-component-large.css">
+
 </head>
 <body>
     <div class="page-wrapper">
@@ -231,12 +234,54 @@
                             </div>
                         </div>
                     </div>
-
+                    <div class="filter-group">
+                        <div class="shipping-option">
+                            <input type="radio" name="paypal-option" id="paypal-option">
+                            <label class="s6-default" for="paypal-option">PayPal</label>
+                        </div>
+                        <img src="assets/img/PayPal-logo.png" alt="logo paypal">
+                    </div>
+                    <div class="filter-group">
+                        <div class="shipping-option">
+                            <input type="radio" name="bitcoin-option" id="bitcoin-option">
+                            <label class="s6-default" for="bitcoin-option">Bitcoin</label>
+                        </div>
+                        <img src="assets/img/Bitcoin_logo.png" alt="logo bitcoin">
+                    </div>
+                </div>
+                <div class="additional-info-section">
+                    <div class="title">
+                        <h2 class="s3-default">Additional information</h2>
+                        <div class="caption">
+                            <p class="caption-default">Need something else? We will make it for you!</p>
+                            <p class="caption-default">Step 4 of 5</p>
+                        </div>
+                    </div>
+                    <label class="s6-default" for="other-notes">Order notes</label>
+                    <textarea class="text-area-default" id="other-notes" placeholder="Need a specific delivery day? Sending a gitf? Let’s say ..."></textarea>
+                </div>
+                <div class="confirmation-section">
+                    <div class="title">
+                        <h2 class="s3-default">Confirmation</h2>
+                        <div class="caption">
+                            <p class="caption-default">We are getting to the end. Just few clicks and your order si ready!</p>
+                            <p class="caption-default">Step 5 of 5</p>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <input type="checkbox" name="agree-marketing-terms" id="agree-marketing-terms">
+                        <label class="s6-default" for="agree-marketing-terms">I agree with sending an Marketing and newsletter emails. No spam, promissed!</label>
+                    </div>
+                    <div class="filter-group">
+                        <input type="checkbox" name="agree-marketing-terms" id="agree-marketing-terms">
+                        <label class="s6-default" for="agree-marketing-terms">I agree with sending an Marketing and newsletter emails. No spam, promissed!</label>
+                    </div>
+                    <button class="button-component-large -colored-border">Complete order</button>
+                    <img src="assets/img/security.png" alt="security">
                 </div>
             </div>
             <div class="order-summary-section">
-                
-
+             
             </div>
         </section>
         <footer class="main-section -third">
