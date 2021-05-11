@@ -1,0 +1,11 @@
+.s2-default{
+    font-family: var(--font-s6);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    color: var(--color-c1a);
+}
+
+.s2-default.-green {
+    color: var(--color-c2a);
+}
