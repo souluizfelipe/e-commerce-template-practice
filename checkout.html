@@ -54,6 +54,14 @@
     <link rel="stylesheet" href="css/components/table-component/main-table.css">
     <link rel="stylesheet" href="css/components/text-components/s4-default.css">
     <link rel="stylesheet" href="css/components/text-components/s5-default.css">
+    <link rel="stylesheet" href="css/components/text-components/s2-default.css">
+
+
+    <link rel="stylesheet" href="css/components/n-product-select.css">
+    <link rel="stylesheet" href="css/components/product-summary.css">
+
+    <link rel="stylesheet" href="css/components/button-components/button-component-medium.css">
+    <link rel="stylesheet" href="css/components/price-summary.css">
 
 </head>
 <body>
@@ -292,20 +300,20 @@
                     </div>
                 </div>
                 <div class="product-summary">
-                    <div>
+                    <div class="left">
                         <img src="assets/img/img-product-sumary.png" alt="product photo">
-                        <div class="items">
-                            <a href=""><img src="assets/img/ic-actions-heart.png" alt="">Wishlist</a>
+                        <div class="options">
+                            <a class="caption-default" href=""><img class="icon" src="assets/img/ic-actions-heart.png" alt="">Wishlist</a>
                         </div>
-                        <div class="items">
-                            <a href=""><img src="assets/img/ic-layout-picture-right.png" alt="">Compare</a>
+                        <div class="options">
+                            <a class="caption-default" href=""><img class="icon" src="assets/img/ic-layout-picture-right.png" alt="">Compare</a>
                         </div>
-                        <div class="items">
-                            <a href=""><img src="assets/img/ic-actions-close-simple-black.png" alt="">Remove</a>
+                        <div class="options">
+                            <a class="caption-default" href=""><img class="icon" src="assets/img/ic-actions-close-simple-black.png" alt="">Remove</a>
                         </div>
                     </div>
-                    <div>
-                        <div>
+                    <div class="right">
+                        <div class="product">
                             <h3 class="s5-default">Product title</h3>
                             <table class="main-table">
                                 <tr>
@@ -319,11 +327,88 @@
                             </table>
                         </div>
                         <img src="assets/img/rating-4.png" alt="rating 4 stars">
-                        <div>
-                            <h3 class="s4-default -green">36.99 USD</h3>
-                            <h3 class="main-subtitle -oldPrice">48.56 USD</h3>
+                        <div class="price">
+                            <div>
+                                <h3 class="s4-default -green">36.99 USD</h3>
+                                <h3 class="main-subtitle -oldPrice">48.56 USD</h3>
+                            </div>
+                            <div class="n-product-select">
+                                <input class="input" type="text" name="number of products" id="number of products" placeholder="1pcs">
+                                <select class="select" name="" id="">
+                                    <option value="Pcs">Pcs</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="product-summary">
+                    <div class="left">
+                        <img src="assets/img/img-product-sumary.png" alt="product photo">
+                        <div class="options">
+                            <a class="caption-default" href=""><img class="icon" src="assets/img/ic-actions-heart.png" alt="">Wishlist</a>
+                        </div>
+                        <div class="options">
+                            <a class="caption-default" href=""><img class="icon" src="assets/img/ic-layout-picture-right.png" alt="">Compare</a>
+                        </div>
+                        <div class="options">
+                            <a class="caption-default" href=""><img class="icon" src="assets/img/ic-actions-close-simple-black.png" alt="">Remove</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="product">
+                            <h3 class="s5-default">Product title</h3>
+                            <table class="main-table">
+                                <tr>
+                                    <td class="item">Farm:</td>
+                                    <td class="item">Tharamis Farm</td>
+                                </tr>
+                                <tr>
+                                    <td class="item">Freshness:</td>
+                                    <td class="item">1 day old</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <img src="assets/img/rating-4.png" alt="rating 4 stars">
+                        <div class="price">
+                            <div>
+                                <h3 class="s4-default -green">36.99 USD</h3>
+                                <h3 class="main-subtitle -oldPrice">48.56 USD</h3>
+                            </div>
+                            <div class="n-product-select">
+                                <input class="input" type="text" name="number of products" id="number of products" placeholder="1pcs">
+                                <select class="select" name="" id="">
+                                    <option value="Pcs">Pcs</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-summary">
+                    <table class="main-table">
+                        <tr class="tr">
+                            <td class="s6-default td">Subtotal</td>
+                            <td class="s6-default td">73.98 USD</td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="s6-default td">Tax</td>
+                            <td class="s6-default td">17% 16.53 USD</td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="s6-default td">Shipping</td>
+                            <td class="s6-default td">0 USD</td>
+                        </tr>
+                    </table>
+                    <div class="option-background">
+                        <input class="" type="text" name="" id="">
+                        <button class="button-component-medium -transparent-no-border">Apply now</button>
+                    </div>
+                </div>
+                <div class="final-price">
+                    <div>
+                        <p class="s6-default">Total Order</p>
+                        <p class="caption-default -green">Guaranteed delivery day:  June 12, 2020</p>
+                    </div>
+                    <h3 class="s2-default -green">89.84 USD</h3>
                 </div>
             </div>
         </section>
