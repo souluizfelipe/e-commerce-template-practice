@@ -1,4 +1,5 @@
 .price-summary {
+    margin-bottom: 40px;
 }
 
 .price-summary .main-table {
@@ -11,7 +12,21 @@
     text-align: right;
 }
 
-.price-summary .option-backgound {
+.price-summary .option-background {
+    box-sizing: border-box;
     height: 42px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-summary .option-background .input-default {
+    width: 270px;
+    padding-left: 0px;
+    border: none;
+    background: transparent;
+}
+
+.price-summary .option-background .button-component-medium {
+    padding: 0px;
 }
