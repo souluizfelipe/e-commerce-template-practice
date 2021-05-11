@@ -4,4 +4,9 @@
     font-weight: 400;
     line-height: 16px;
     display: inline-block;
+    color: var(--color-c1a);
+}
+
+.caption-default.-green {
+    color: var(--color-c2a);
 }
