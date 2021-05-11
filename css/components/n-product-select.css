@@ -1,24 +1,40 @@
 .n-product-select {
-    margin-bottom: 0;
     border-radius: 12px;
-    border: 1px solid var(--color-c1f);
+    border: 1px solid var(--color-c1d);
     background-color: var(--color-c1h);
     box-sizing: border-box;
-    width: 111px;
-    height: 48px;
+    width: 92px;
+    height: 32px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-right: 24px;
+    position: relative;
+}
+
+.n-product-select::before {
+    content: "";
+    height: 20px;
+    width: 1px;
+    position: absolute;
+    background-color: var(--color-c1d);
+    top: 5px;
+    left: 44px;
 }
 
 .n-product-select .input {
     appearance: none;
-    width: 9px;
+    width: 30px;
     height: 19px;
+    background: transparent;
 }
 
 .n-product-select .select{
     appearance: none;
+    background: transparent;
+    font-family: var(--font-s6);
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color: var(--color-c1a);
 }
