@@ -1,0 +1,39 @@
+.product-summary {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid var(--color-c1f);
+    margin-bottom: 32px;
+}
+
+.product-summary:last-of-type {
+    margin-bottom: 40px;
+}
+
+.product-summary .options {
+    margin-bottom: 8px;
+}
+
+.product-summary .options .caption-default {
+    color: var(--color-c1c);
+    display: flex;
+    align-items: center;
+}
+
+.product-summary .options .caption-default .icon {
+    margin-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.product-summary .right {
+    width: 100%;
+    margin-left: 16px;
+}
+
+.product-summary .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+    
+}
