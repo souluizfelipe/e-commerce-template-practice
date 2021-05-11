@@ -1,0 +1,17 @@
+.price-summary {
+}
+
+.price-summary .main-table {
+    width: 100%;
+    margin-bottom: 32px;
+    height: 78px;
+}
+
+.price-summary .main-table .td:nth-child(even) {
+    text-align: right;
+}
+
+.price-summary .option-backgound {
+    height: 42px;
+    width: 100%;
+}
